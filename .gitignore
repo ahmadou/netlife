@@ -19,6 +19,9 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
+# Public
+src/main/resources/public/**
+
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
