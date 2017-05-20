@@ -78,7 +78,7 @@ public class NetLifeEndPoint {
     @ResponseBody
     ResponseEntity<List<Product>> listProducts() {
 
-        return new ResponseEntity(listProducts(), HttpStatus.CREATED);
+        return new ResponseEntity(products, HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "/api/child", method = RequestMethod.GET)

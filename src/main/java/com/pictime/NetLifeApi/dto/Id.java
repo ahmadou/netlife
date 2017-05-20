@@ -6,6 +6,9 @@ package com.pictime.NetLifeApi.dto;
 public class Id {
     private String id;
 
+    public Id(){
+    }
+
     public String getId() {
         return id;
     }
