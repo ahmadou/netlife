@@ -88,7 +88,6 @@ public class NetLifeEndPoint {
     @RequestMapping(value = "/api/medicaments", method = RequestMethod.GET)
     @ResponseBody
     ResponseEntity<Medicament> listMedicamentsAllowed() {
-
-        return new ResponseEntity("TODO medicaments", HttpStatus.OK);
+        return new ResponseEntity(currentPerson, HttpStatus.OK);
     }
 }

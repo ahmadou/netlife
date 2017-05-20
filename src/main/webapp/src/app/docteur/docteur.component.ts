@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DocteurService} from "./docteur.service";
 
 @Component({
   selector: 'app-docteur',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./docteur.component.css']
 })
 export class DocteurComponent implements OnInit {
-
-  constructor() { }
+  private _children
+  constructor(private _docteurService: DocteurService) { }
 
   ngOnInit() {
+    this._docteurService.getChildren()
+      .then(response => this._children = Object.assign(response.json()))
+      .catch(error => console.log(error));
   }
 
 }
