@@ -12,8 +12,8 @@ import { HomeComponent } from './home/home.component';
 import {DocteurService} from "./docteur/docteur.service";
 import {MagasinService} from "./magasin/magasin.service";
 import {PerduService} from "./perdu/perdu.service";
-import { ListproductComponent } from './magasin/listproduct/listproduct.component';
 import { PanierComponent } from './magasin/panier/panier.component';
+import {ListproductComponent} from "./magasin/listproduct/listproduct.component";
 
 const appRoutes: Routes = [
   { path: 'docteur', component: DocteurComponent },

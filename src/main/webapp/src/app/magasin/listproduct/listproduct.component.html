@@ -1,3 +1,7 @@
-<p>
-  listproduct works!
-</p>
+<br>
+<br>
+<div class="col-md-2 column productbox" *ngFor="let product of products">
+  <img src="http://placehold.it/460x250/e67e22/ffffff&text=HTML5" class="img-responsive">
+  <div class="producttitle">{{product.nom}}</div>
+  <div class="productprice"><div class="pull-right"><a class="btn btn-danger btn-sm" role="button" (click)="clickProduct(product)">Ajouter au panier</a></div><div class="pricetext">{{product.prix}}€</div></div>
+</div>

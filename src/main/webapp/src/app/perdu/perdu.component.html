@@ -13,27 +13,27 @@
                 <tbody>
                   <tr>
                     <td>Nom:</td>
-                    <td>{{_children?.name}}</td>
+                    <td>{{_children?.personnalInformations?.name}}</td>
                   </tr>
                   <tr>
                     <td>Prenom:</td>
-                    <td>{{_children?.name}}</td>
+                    <td>{{_children?.personnalInformations?.surname}}</td>
                   </tr>
                   <tr>
                     <td>Date de naissance</td>
-                    <td>{{_children?.birthdate}}</td>
+                    <td>{{_children?.personnalInformations?.birthdate}}</td>
                   </tr>
                   <tr>
                     <td>Nom du responsable légal</td>
-                    <td>{{_children?.adress.parentSurname}}</td>
+                    <td>{{_children?.personnalInformations?.address?.parentSurname}}</td>
                   </tr>
                   <tr>
                     <td>Adresse du responsable légal</td>
-                    <td>{{_children?.adress.mainLocation}}</td>
+                    <td>{{_children?.personnalInformations?.address?.mainLocation}}</td>
                   </tr>
                   <tr>
                     <td>téléphone du responsable légal</td>
-                    <td>{{_children?.adress.phoneNumber}}</td>
+                    <td>{{_children?.personnalInformations?.address?.phoneNumber}}</td>
                   </tr>
                 </tbody>
               </table>

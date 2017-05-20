@@ -8,7 +8,7 @@ export class PerduService {
   constructor(private _http: Http) { }
 
   public getChildren() {
-    return this._http.get("/home/pictime/IdeaProjects/netlife/src/main/webapp/src/app/perdu/children.json")
+    return this._http.get("/api/child")
       .toPromise();
   }
 

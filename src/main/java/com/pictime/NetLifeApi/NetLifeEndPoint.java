@@ -26,12 +26,12 @@ public class NetLifeEndPoint {
     private static List<Product> initProducts(){
         List<Product> products = new ArrayList<Product>();
 
-        products.add(new Product("pain", "gluten"));
-        products.add(new Product("fromage", "lait"));
-        products.add(new Product("petit beurre", "gluten"));
-        products.add(new Product("biscuit apero", "arachide"));
-        products.add(new Product("beurre", "lait"));
-        products.add(new Product("couche", "coton"));
+        products.add(new Product("pain", "gluten", 12.5));
+        products.add(new Product("fromage", "lait", 30.0));
+        products.add(new Product("petit beurre", "gluten", 15.0));
+        products.add(new Product("biscuit apero", "arachide", 98.99));
+        products.add(new Product("beurre", "lait", 41.99));
+        products.add(new Product("couche", "coton", 87.0));
         return products;
     }
 
@@ -74,15 +74,14 @@ public class NetLifeEndPoint {
 
     @RequestMapping(value = "/api/products", method = RequestMethod.GET)
     @ResponseBody
-    ResponseEntity<List<Product>> listProducts() {
-
-        return new ResponseEntity(products, HttpStatus.CREATED);
+    List<Product> listProducts() {
+        return products;
     }
 
     @RequestMapping(value = "/api/child", method = RequestMethod.GET)
     @ResponseBody
-    ResponseEntity<DeviceInformationsDto> getInformationAboutChild() {
-        return new ResponseEntity(currentPerson, HttpStatus.OK);
+    DeviceInformationsDto getInformationAboutChild() {
+        return currentPerson;
     }
 
     @RequestMapping(value = "/api/medicaments", method = RequestMethod.GET)

@@ -6,10 +6,12 @@ package com.pictime.NetLifeApi.dto;
 public class Product {
     private String nom;
     private String composant;
+    private double prix;
 
-    public Product(String nom, String composant) {
+    public Product(String nom, String composant, double prix) {
         this.nom = nom;
         this.composant = composant;
+        this.prix = prix;
     }
 
     public String getNom() {
@@ -26,5 +28,13 @@ public class Product {
 
     public void setComposant(String composant) {
         this.composant = composant;
+    }
+
+    public double getPrix() {
+        return prix;
+    }
+
+    public void setPrix(double prix) {
+        this.prix = prix;
     }
 }

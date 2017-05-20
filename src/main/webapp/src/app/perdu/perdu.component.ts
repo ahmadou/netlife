@@ -13,7 +13,10 @@ export class PerduComponent implements OnInit {
 
   ngOnInit() {
     this._perduService.getChildren()
-      .then(response => this._children = response)
+      .then(response => {
+        this._children = Object.assign(new Object(), response.json());
+        console.log("children ",this._children)
+      })
       .catch(error => console.log(error));
   }
 
