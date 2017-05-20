@@ -12,7 +12,6 @@ import java.util.*;
  * Created by pictime on 20/05/17.
  */
 
-
 @Controller
 public class NetLifeEndPoint {
 
@@ -63,12 +62,11 @@ public class NetLifeEndPoint {
     }
 
 
-    @RequestMapping(value = "/api/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/api/register", method = RequestMethod.GET)
     @ResponseBody
-    public ResponseEntity<String> process(@RequestBody Id id) {
-        Integer integer = Integer.valueOf(id.getId());
-        if (integer < persons.size()) {
-            currentPerson = persons.get(integer);
+    public ResponseEntity<String> process(@RequestParam int id) {
+        if (id < persons.size()) {
+            currentPerson = persons.get(id);
         }
 
         return new ResponseEntity("OK", HttpStatus.CREATED);
