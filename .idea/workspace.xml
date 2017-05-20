@@ -5,26 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a0d8a8-24ed-4fb5-b3e8-755eb16cabf9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/children.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pictime/NetLifeApi/NetLifeEndPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/pictime/NetLifeApi/NetLifeEndPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pictime/NetLifeApi/dto/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/pictime/NetLifeApi/dto/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/inline.bundle.js.map" afterPath="$PROJECT_DIR$/src/main/resources/public/inline.bundle.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/main.bundle.js" afterPath="$PROJECT_DIR$/src/main/resources/public/main.bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/main.bundle.js.map" afterPath="$PROJECT_DIR$/src/main/resources/public/main.bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/home/home.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/listproduct/listproduct.component.html" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/listproduct/listproduct.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/listproduct/listproduct.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/listproduct/listproduct.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.component.html" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.service.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/magasin.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.css" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.html" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/magasin/panier/panier.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.component.html" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.service.ts" afterPath="$PROJECT_DIR$/src/main/webapp/src/app/perdu/perdu.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/polyfills.bundle.js" afterPath="$PROJECT_DIR$/src/main/resources/public/polyfills.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/polyfills.bundle.js.map" afterPath="$PROJECT_DIR$/src/main/resources/public/polyfills.bundle.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/styles.bundle.js" afterPath="$PROJECT_DIR$/src/main/resources/public/styles.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/styles.bundle.js.map" afterPath="$PROJECT_DIR$/src/main/resources/public/styles.bundle.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/vendor.bundle.js" afterPath="$PROJECT_DIR$/src/main/resources/public/vendor.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/vendor.bundle.js.map" afterPath="$PROJECT_DIR$/src/main/resources/public/vendor.bundle.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -245,6 +235,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="netlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,16 +792,16 @@
       <workItem from="1495236031097" duration="4065000" />
       <workItem from="1495245815430" duration="2625000" />
       <workItem from="1495249317847" duration="8456000" />
-      <workItem from="1495257983656" duration="32000" />
+      <workItem from="1495257983656" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15178000" />
+    <option name="totallyTimeSpent" value="15619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="930" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -809,13 +817,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995128" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19210246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -825,7 +834,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
