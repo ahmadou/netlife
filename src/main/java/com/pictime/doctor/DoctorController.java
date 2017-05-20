@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class DoctorController {
-    @RequestMapping("/")
+    @RequestMapping("/toto")
     @ResponseBody
     String home() {
         return "Hello World!";
